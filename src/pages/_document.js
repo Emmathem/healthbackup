@@ -72,7 +72,6 @@ class MyDocument extends Document {
                         <link rel="manifest" href="/manifest.json" />
                         <link rel="shortcut icon" href="/icons/favicon.ico" />
                         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css" />
-                        <title>Welcome</title>
                     </Head>
                     <body>
                         <Main />
