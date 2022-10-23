@@ -61,7 +61,7 @@ const Experience = () => {
                 </div>
             </div>
             <div className="experience__more">
-                <Link href="/projects">
+                <Link href="/project">
                     <a>
                         <Button startIcon={<Visibility />} variant="contained" color="primary">
                             View More
