@@ -7,7 +7,7 @@ export default function Home() {
         <>
             <NextSeo
                 title="Temitope F Portfolio"
-                description="An experienced & passionate web application developer with a variety of developed web projects"
+                description="An experienced & passionate web application developer with a variety of developed web project"
                 openGraph={{
                     title: 'Temitope F Portfolio',
                     description:

@@ -11,7 +11,7 @@ const PanelSugar = () => {
                 <title>Panel Sugare | HealthTracka</title>
                 <meta
                     name="description"
-                    content="This shows all the projects that I have done both personal, training and others"
+                    content="This shows all the project that I have done both personal, training and others"
                 />
             </Head>
             <Header />

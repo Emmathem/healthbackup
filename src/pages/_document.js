@@ -57,12 +57,12 @@ class MyDocument extends Document {
                         <meta name="google-site-verification" content="jJQ_Brck8uecHEFz1-H0N-DgKW_QwlB8aJ9nJZdRz6M" />
                         <meta
                             name="description"
-                            content="An experienced & passionate web application developer with a variety of developed web projects"
+                            content="An experienced & passionate web application developer with a variety of developed web project"
                         />
                         <meta property="og:title" content="Falua Temitope Oyewole Portfolio" key="ogtitle" />
                         <meta
                             property="og:description"
-                            content="An experienced & passionate web application developer with a variety of developed web projects"
+                            content="An experienced & passionate web application developer with a variety of developed web project"
                             key="ogdesc"
                         />
                         <meta property="og:image" content="/images/portfolio.png" key="ogimage" />
