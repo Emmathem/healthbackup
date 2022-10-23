@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Lato:wght@100;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+@import 'antd/dist/antd.css';
+@import '@/assets/styles/globals.css';
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+// .wow {
+//     visibility: hidden;
+// }
+.nodetails {
+    display: flex;
+    padding: 5px;
+    font-size: 1.2rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 0;
+    color: var(--white-color);
+    transition: ease all 0.5s;
+    animation: slideInDown 2s linear 4s;
+    margin: auto;
+    &.blue-color {
+        color: var(--deep-blue);
+    }
+}
+.main-bg {
+    background: linear-gradient(89deg, #0a20bfd1, #3f65f1a8) !important;
+}
+
+.white-bg {
+    background: var(--white-color) !important;
+}
+.pt-70 {
+    padding-top: 7rem !important;
+}
+
+.deep-blue {
+    color: var(--deep-blue) !important;
+}
+.social {
+    display: flex;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    > div {
+        cursor: pointer;
+        /* padding: 4px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        color: var(--deeper-blue);
+        margin-right: 10px;
+        overflow: hidden;
+        transition: ease all 0.5s;
+        transform: translateY(0);
+        /* background: linear-gradient(135deg, rgba(0, 0, 0, 0.22), rgba(255, 255, 255, 0.25)); */
+        background: var(--white-color);
+        box-shadow: 1px 2px 16px 0 rgba(0, 0, 0, 0.25), -2px 0 12px 0 rgba(255, 255, 255, 0.3);
+        a {
+            display: flex;
+            align-items: center;
+        }
+        &:hover {
+            transition: ease all 0.5s;
+            transform: translateY(-5px);
+        }
+    }
+    .instagram {
+        color: var(--instagram);
+    }
+    .linkedln {
+        color: var(--linkedln);
+    }
+    .github {
+        color: var(--github);
+    }
+    .twitter {
+        color: var(--twitter);
+    }
+    .whatsapp {
+        color: var(--whatsapp);
+    }
+    .phone {
+        color: var(--black-color);
+    }
+}

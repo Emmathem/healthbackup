@@ -1,0 +1,28 @@
+{
+    "name": "Temitope Portfolio",
+    "short_name": "my-portfolio",
+    "description": "An experienced & passionate web application developer ",
+    "theme_color": "#FFFFFF",
+    "background_color": "#FFFFFF",
+    "start_url": "/",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "/icons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/icons/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "/icons/android-chrome-192x192.png",
+        "type": "image/png",
+        "sizes": "144x144",
+        "purpose": "maskable any"
+      }
+    ]
+  }
+  

@@ -1,0 +1,31 @@
+:root {
+  --background-blue: #1171ef;
+  --lighter-blue: #11cdef;
+  --deep-blue: #172b4d;
+  --deeper-blue: #3f51b5;
+  --black-color: rgb(0, 0, 0);
+  --white-color: rgb(255, 255, 255);
+  --facebook: #3b5998;
+  --twitter: #00aced;
+  --instagram: #c32aa3;
+  --github: #333;
+  --linkedln: #0a66c2;
+  --whatsapp: #4FCE5D;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
